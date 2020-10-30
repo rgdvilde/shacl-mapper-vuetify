@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --modern --target lib --formats umd,umd-min --name VueShaclMapper src/ShaclMapper.vue && rm ./dist/demo.html",
+    "build": "vue-cli-service build --modern --target lib --formats umd,umd-min --name ShaclMapper src/ShaclMapper.vue && rm ./dist/demo.html",
     "lint": "vue-cli-service lint",
     "lintfix": "vue-cli-service lint --fix"
   },
